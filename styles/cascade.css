@@ -61,6 +61,7 @@ footer {
     color:white;
     padding:9px;
     background-color:rgba(68, 165, 181, 0.8);
+    clear: both;
 
 
 }
@@ -86,4 +87,27 @@ footer p {
 .sidebar {
     float:left;
     width: 300px;
+    background-color:rgba(255, 255, 255, 0.4);
+    color:#44a5b5;
+    padding: 4px;
+}
+
+.sidebar a {
+    color:#44a5b5
+}
+
+figure {
+    margin:0px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.tim {
+    float: right;
+}
+.deborah {
+    float:left;
+    margin-right:7px;
 }
