@@ -4,15 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimizing Images</title>
-    <link href="../styles/optimizing-images.css" rel="stylesheet" type="text/css">
+    <style>
+        .loki {
+            background-color: dimgrey;
+            width: 700px;
+            padding: 7px;
+            margin: 5px;
+            float: left;
+        }
+
+        .leroy {
+            display: inline-block;
+            color: white;
+            vertical-align: top;
+            margin-left: 5px;
+        }
+
+
+
+    </style>
 </head>
 <body>
 
     <article class="loki">
-        <img src="../images/80.jpg" alt="80 percent JPEG" height="500px">
+        <img src="../images/80.jpg" alt="80 percent JPEG" height="300px">
         <section class="leroy"><p>80% JPEG 13.4k<br>
-            the quality is alright.</p></section>
+            the quality is alright</p>
+        </section>
     </article>
+    <article class="loki">
+        <img src="../images/40.jpg" alt="40 percent JPG sample" height="300px">
+        <section class="leroy"><p>40% JPEG - 4.4k<br>
+            noticeable jpeg artifacts</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/256.gif" alt="256 gif sample" height="300px">
+        <section class="leroy"><p>256 Color GIF - 66.1k<br>
+            tiny bit crusty like 80 JPEG</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/64.gif" alt="64 gif sample" height="300px">
+        <section class="leroy"><p>64 Color GIF - 47k<br>
+            dithering is becoming more noticeable</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/8.gif" alt="8 gif sample" height="300px">
+        <section class="leroy"><p>8 Color GIF - 10k<br>
+            dithering everywhere</p>
+        </section>
+    </article>
+    <article class="loki">
+        <img src="../images/24.png" alt="24 png sample" height="300px">
+        <section class="leroy"><p>PNG 24 - 82k<br>
+            good quality</p>
+        </section>
+    </article>
+
+
 
 
 </body>
