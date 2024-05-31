@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* auf wiedersehen */
+
+body {
+    color:blue;
+    font-family: fantasy, "serif";
+    /*i did NOT know that fantasy was papyrus font, that's amazing*/
+    background-color:white;
+}

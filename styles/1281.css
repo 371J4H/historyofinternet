@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* saahh dude */
+
+body {
+    background-color: violet;
+    color: chartreuse;
+    /* invader zim type colors*/
+    background-image: url("../images/9-marc-andreessen.jpg");
+    background-size: 900px 300px;
+    /* screw it i kinda wanna just have marc as an image being stretched out
+    like a really bad ytmnd website, i think that would be really funny*/
+}
